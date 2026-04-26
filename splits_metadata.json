@@ -1,0 +1,41 @@
+{
+  "phrasebank": {
+    "train": {
+      "size": 1584,
+      "class_distribution": {
+        "negative": 212,
+        "neutral": 973,
+        "positive": 399
+      }
+    },
+    "val": {
+      "size": 340,
+      "class_distribution": {
+        "negative": 45,
+        "neutral": 209,
+        "positive": 86
+      }
+    },
+    "test": {
+      "size": 340,
+      "class_distribution": {
+        "negative": 46,
+        "neutral": 209,
+        "positive": 85
+      }
+    }
+  },
+  "twitter_ood": {
+    "size": 1000,
+    "class_distribution": {
+      "negative": 145,
+      "neutral": 656,
+      "positive": 199
+    }
+  },
+  "label_scheme": {
+    "0": "negative",
+    "1": "neutral",
+    "2": "positive"
+  }
+}
